@@ -1,10 +1,11 @@
-#header{
-	margin-right: auto;
-	margin-left: auto;
+header{
+	width: 100%;
+    text-align: center;
+
 }
 #button{
 	font-size: 40px;
-	background-color: blue;
+	background-color: red;
 	
 }
 #ball{
