@@ -5,13 +5,15 @@
 	<meta charset="viewport" content="width=1170">
 	<title>Arminia Bier bestellt</title>
 	<link rel="stylesheet" href="css/style.css">
+	<script src ="js/jquery-3.6.0.min.js"></script>
+	<script src ="js/script.js"></script>
 </head>
 <body>
 	<header class = "header">
 		<h1>Arminia Bier bestellt</h1>
 	</header>
 	<div class = "page">
-		<button id = "button">
+		<button onclick="showHide('formId', 'button')" id = "button">
 			<span class="white">A</span>
 			n
 			<span class="white">m</span>
@@ -19,13 +21,13 @@
 			<span class="white">l</span>
 			<span class="d">
 				<img id = "ball" src="css/img/ball.png" alt="">
-				<img id = "bier" src="css/img/bier.png" alt="">
+				<img id = "bier" src="css/img/Bier.png" alt="">
 			</span>
 			<span class="after_img"><span class="white">e</span>n</span>
 			</button>
 	</div>
 	<footer>
-		
+		<p id ="names">Von Maxim Toruhov, Jannik Noah Timmerarens, Jarno Kuers, Elias Wegner, Jannes Garben.</p>
 	</footer>
 </body>
 </html>
