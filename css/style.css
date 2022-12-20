@@ -17,7 +17,11 @@ header{
     font-size: 200%;
     padding-top: 60px;
 }
-
+footer{
+	background-color: #6E8BE1;
+	height: 160px;
+	margin-top: 100%;
+}
 #button{
 	font-size: 100px;
 	background-color: royalblue;
