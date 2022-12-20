@@ -28,6 +28,7 @@ header{
 }
 #button:hover{
 	box-shadow: 2px 2px 5px;
+	background-color: red;
 }
 #ball{
 	width: 6%;
